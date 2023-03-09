@@ -29,6 +29,7 @@ import RecommendedProducts from '../components/recommended-products'
 import {LockIcon} from '../components/icons'
 import {useVariationAttributes} from './'
 import {findImageGroupBy} from '../utils/image-groups-utils'
+import BoltButton from '../bolt/components/bolt-button'
 
 /**
  * This is the context for managing the AddToCartModal.
@@ -188,6 +189,7 @@ export const AddToCartModal = () => {
                                         id: 'add_to_cart_modal.link.checkout'
                                     })}
                                 </Button>
+                                <BoltButton/>
                             </Stack>
                         </Box>
                     </Flex>
